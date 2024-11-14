@@ -2,7 +2,7 @@ streamlit
 streamlit-option-menu
 pandas
 transformers
-spacy
+spacy==3.5.0
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
 Pillow
 numpy
@@ -11,3 +11,7 @@ nltk
 requests
 streamlit-lottie
 feedparser
+thinc==8.1.10
+Cython
+setuptools
+wheel
