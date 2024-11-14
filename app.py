@@ -19,6 +19,13 @@ import csv
 from time import sleep
 from streamlit_lottie import st_lottie
 import requests
+import subprocess
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
 
 # Download NLTK word list if not already available
 nltk.download('words')
