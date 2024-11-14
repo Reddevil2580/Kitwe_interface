@@ -9,3 +9,4 @@ scipy
 nltk
 requests
 streamlit-lottie
+feedparser
