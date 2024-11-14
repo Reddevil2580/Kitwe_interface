@@ -11,4 +11,3 @@ nltk
 requests
 streamlit-lottie
 feedparser
-subprocess
