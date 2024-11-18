@@ -1,15 +1,14 @@
-streamlit
-streamlit-option-menu
-pandas
-transformers
-spacy==3.3.1
-thinc==8.0.17
-Pillow
-numpy
-scipy
-nltk
-requests
-streamlit-lottie
-feedparser
-Cython
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0.tar.gz
+torch==2.5.1
+transformers>=4.45.1
+streamlit>=1.39.0
+huggingface_hub>=0.25.1
+pandas==2.2.2
+spacy==3.8.2
+feedparser==6.0.11
+datetime==5.5
+streamlit_option_menu==0.4.0
+requests==2.32.3
+scipy==1.14.1
+nltk==3.9.1
+streamlit_lottie==0.0.5
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
