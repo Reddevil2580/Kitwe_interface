@@ -1,12 +1,12 @@
-torch==2.5.1
-transformers>=4.45.1
-streamlit>=1.39.0
-huggingface_hub>=0.25.1
+streamlit==1.40.0
+streamlit-option-menu==0.4.0
 pandas==2.2.2
+transformers>=4.45.1
+huggingface_hub>=0.25.1
 spacy==3.8.2
 feedparser==6.0.11
 datetime==5.5
-streamlit_option_menu==0.4.0
+torch==2.5.1
 requests==2.32.3
 scipy==1.14.1
 nltk==3.9.1
