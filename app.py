@@ -35,7 +35,7 @@ word_list = set(words.words())  # Load English dictionary words
 logo_url = "https://raw.githubusercontent.com/hoybrett99/Kitwe_Fake_News_Detector/main/kitwe_logo.png"
 
 # Set page title and layout
-st.set_page_config(page_title="Kitwe News Today", page_icon=logo_url, layout="wide")
+st.set_page_config(page_title="Omdena", page_icon=logo_url, layout="wide")
 
 # Load spaCy model
 @st.cache_resource
